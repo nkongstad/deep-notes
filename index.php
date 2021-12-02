@@ -1,3 +1,8 @@
+<?php
+include("./functions.php");
+include("./controller.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deep(pink)Notes</title>
 </head>
-<body bgcolor="#ff1493"
+<body bgcolor="#7FFFD4">
     <form method="post">
         <input type="text" name="note">
         <button type="submit">Gem</button>
