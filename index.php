@@ -17,10 +17,17 @@ include("./controller.php");
         <button type="submit">Gem</button>
     </form>
 
-    <ul>
-        <li>Min test note</li>
+  
 
+    <ul>
+        <?php foreach(getFromFile()as $i => $note){ ?>
+            <li>
+                <?php echo $note ?>
+                <a href="?i=<?php echo $i; ?>">Slet</a>
+            </li>
+        <?php } ?>
     </ul>
+
     
 </body>
 </html>
